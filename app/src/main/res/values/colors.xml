@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="DarkGreyColor">#6B6867</color>
+    <color name="GreyColor">#777777</color>
+    <color name="LightWhite">#EAF0F1</color>
+    <color name="LightYellowColor">#FFF222</color>
+    <color name="LightOrangeColor">#FAC42F</color>
+
+
+
+
+    <color name="LightRedColor">#E93F3F</color>
+    <color name="DarkRedColor">#FF362E</color>
+    <color name="WhiteColor">#FFFFFF</color>
+    <color name="BlackColor">#000000</color>
+    <color name="BlueColor">#0090FF</color>
+    <color name="BlurGreyColor">#A8A6A6</color>
+
+
+    <color name="LowLightBrownColor">#D2B694</color>
+    <color name="LightBrownColor">#CBA372</color>
+    <color name="StarBlueColor">#0090FF</color>
+    <color name="HeartRedColor">#F83F2A</color>
+    <color name="FontGreyColor">#B5B2AE</color>
+
+</resources>

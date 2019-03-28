@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LowLightBrownColor"
+    tools:context=".MainActivity">
+
+
+
+        <LinearLayout
+            android:id="@+id/profile_wallpaper"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/profile_wallpaper"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/my_Profile_Picture"
+            android:layout_width="142dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="208dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="horizontal"
+            android:src="@drawable/myimage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/about_Me"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="324dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/story_of_super_boys"
+            android:gravity="center"
+            android:text="@string/about_me"
+            android:textColor="@color/BlackColor"
+            android:textSize="35sp"
+            app:layout_constraintBottom_toTopOf="@+id/Honesty_Quote"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ScrollView
+            android:id="@+id/Honesty_Quote"
+            android:layout_width="360dp"
+            android:layout_height="260dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="384dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/button_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ink_free"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="@string/bio_about_me"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+
+        </ScrollView>
+
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/Icons_Layout"
+            android:layout_width="237dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Honesty_Quote"
+            app:layout_constraintVertical_bias="0.887">
+
+
+            <ImageView
+                android:id="@+id/googleIcon"
+                android:layout_width="50dp"
+                android:layout_height="60sp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/ic_google_color"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/githubIcon"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/githubIcon"
+                android:layout_width="50dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/ic_github_color"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/linkedInIcon"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/linkedInIcon"
+                android:layout_width="50dp"
+                android:layout_height="60sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/ic_linkedin_color"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/twitterIcon"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/twitterIcon"
+                android:layout_width="50dp"
+                android:layout_height="60sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/ic_twitter_color"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/actionView_FP_nextPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/ic_arrow_right"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+
