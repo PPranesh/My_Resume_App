@@ -30,7 +30,7 @@
     <string name="hsc_percentage">Percentage: 86.06%</string>
     <string name="ug">B.E :</string>
     <string name="ug_college">Sri Krishna College of Engineering and Technology</string>
-    <string name="ug_percentage">CGPA: 7.42%</string>
+    <string name="ug_percentage">CGPA: 7.70</string>
     <string name="nextpage">nextPage</string>
     <string name="internship">Internship :</string>
     <string name="internship_company">* Connected Ventures Technology *</string>
@@ -63,4 +63,5 @@
     <string name="ppranesh5_gmail_com">ppranesh5@gmail.com</string>
     <string name="Open">Open</string>
     <string name="close">Close</string>
+    <string name="developer">Developer</string>
 </resources>
